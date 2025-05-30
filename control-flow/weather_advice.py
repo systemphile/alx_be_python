@@ -1,7 +1,7 @@
 #Python script to recommend clothing recommendation based on the weather
 
 #prompt User for Weather Input
-weather = input("What's the weather like today? (sunny/rainy/cold): \n").lower()
+weather = input("What's the weather like today? (sunny/rainy/cold): \n")
 
 #recommend clothing based on weather
 if weather == "sunny":
