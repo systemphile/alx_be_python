@@ -8,6 +8,9 @@ i = 1
 
 #print character according to pattern size
 while i <= size:
-    while i <= size:
-        print("*" * size)
-        i += 1
+    j = 1
+    while j <= size:
+        print("*", end="")
+        j += 1
+    print()
+    i += 1
