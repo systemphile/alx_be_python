@@ -1,5 +1,5 @@
 # Pytthon script that uses the datetime module
-import datetime
+from datetime import datetime
 
 #function displays the current date
 def display_current_datetime():
