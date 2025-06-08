@@ -13,8 +13,10 @@ def perform_operation(num1, num2, operation):
         case "multiply":
             result = num1 * num2
         case "divide":
-            if num1 == 0 or num2 == 0: #handling division by zero
+            if num1 == 0: #handling division by zero
                 print("Division by zero error")
+            elif num2 == 0:
+                print("Division by zero error")    
             else:
                 result = num1 / num2
         case _:
