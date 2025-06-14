@@ -1,10 +1,17 @@
-class BankAccount():
+#This script contains a class for creating bankaccount objects
+
+#define BankAccount class
+class BankAccount:
+    
+    #Initialize
     def __init__(self, account_balance):
         self.account_balance = account_balance
         account_balance = 0
+    
+    #define actions
     def deposit(self, amount):
         self.account_balance += amount
-    def withdraw(self, amount):
+    def withdraw(self, amount): #returns true if account_balance is available
         if self.account_balance >= amount:
             self.account_balance -= amount
             return True
